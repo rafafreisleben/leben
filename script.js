@@ -13,5 +13,5 @@ function mostrarResumo(disciplina) {
 }
 
 document.getElementById("acessibilidade").addEventListener("click", () => {
-    alert("Opções de acessibilidade serão implementadas em breve!");
+    alert("oi");
 });
