@@ -7,7 +7,9 @@ const resumos = {
 };
 
 function mostrarResumo(disciplina) {
-    document.getElementById("resumo").innerText = resumos[disciplina];
+    const resumoElement = document.getElementById("resumo");
+    resumoElement.innerText = resumos[disciplina];
+    resumoElement.classList.add("mostrar");
 }
 
 document.getElementById("acessibilidade").addEventListener("click", () => {
