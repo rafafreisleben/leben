@@ -3,46 +3,22 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #412e85, #bc43c7);
 }
 
-header {
-    background: #333;
+header, footer {
+    background-color: #333;
     color: white;
-    padding: 20px;
-}
-
-main {
-    padding: 20px;
-}
-
-.buttons button {
-    margin: 10px;
     padding: 15px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-    background: #81af4c;
-    color: white;
-    border-radius: 5px;
 }
 
-.buttons button:hover {
-    background: #4583a0;
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
 #resumo {
     margin-top: 20px;
-    padding: 20px;
-    background: white;
-    border-radius: 5px;
-    display: inline-block;
-}
-footer {
-    background: #333;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    font-size: 18px;
 }

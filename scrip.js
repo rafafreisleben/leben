@@ -1,11 +1,15 @@
+const resumos = {
+    biologia: "Biologia estuda os seres vivos, desde células até ecossistemas.",
+    quimica: "Química aborda substâncias, reações químicas e suas aplicações.",
+    fisica: "Física explica os princípios naturais como movimento e energia.",
+    portugues: "Português foca em gramática, literatura e interpretação de textos.",
+    historia: "História analisa eventos e sociedades ao longo do tempo."
+};
+
 function mostrarResumo(disciplina) {
-    let resumo = document.getElementById("resumo");
-
-    const conteudos = {
-        biologia: "Estuda os processos biológicos como evolução, genética e ecologia. No terceiro ano do Ensino Médio, foca em biotecnologia, fisiologia humana e sustentabilidade.",
-        quimica: "Explora reações químicas, ácidos e bases, e química orgânica. No terceiro ano, aborda radioatividade, eletroquímica e polímeros sintéticos.",
-        historia: "Analisa eventos históricos como Revolução Industrial, guerras mundiais e globalização. No terceiro ano, estuda o Brasil contemporâneo e movimentos sociais."
-    };
-
-    resumo.innerHTML = `<p>${conteudos[disciplina]}</p>`;
+    document.getElementById("resumo").innerText = resumos[disciplina];
 }
+
+document.getElementById("acessibilidade").addEventListener("click", () => {
+    alert("Opções de acessibilidade serão implementadas em breve!");
+});
