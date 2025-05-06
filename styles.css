@@ -1,4 +1,4 @@
-/* Configuração geral */
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -11,7 +11,7 @@ body {
     min-height: 100vh;
 }
 
-/* Cabeçalho */
+
 header {
     background: linear-gradient(135deg, #4a148c, #880e4f);
     color: white;
@@ -24,7 +24,7 @@ header {
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.6);
 }
 
-/* Botões com efeito vidro */
+
 .botao {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(8px);
@@ -45,7 +45,7 @@ header {
     transform: scale(1.1);
 }
 
-/* Container das disciplinas em formato de coluna */
+
 .disciplinas {
     display: flex;
     flex-direction: column;
@@ -54,7 +54,7 @@ header {
     margin: 40px 0;
 }
 
-/* Bloco de resumo com efeito neon */
+
 .resumo {
     margin-top: 30px;
     font-size: 22px;
@@ -74,7 +74,7 @@ header {
     transform: translateY(0);
 }
 
-/* Rodapé */
+
 footer {
     background: #880e4f;
     color: white;
@@ -88,7 +88,7 @@ footer {
     font-weight: bold;
 }
 
-/* Botão de acessibilidade fixo */
+
 .botao-acessibilidade {
     background: #ff4081;
     position: fixed;
@@ -106,7 +106,7 @@ footer {
     transform: scale(1.1);
 }
 
-/* Responsividade */
+
 @media (max-width: 768px) {
     .resumo {
         width: 80%;
